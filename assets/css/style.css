@@ -1,0 +1,213 @@
+
+/* Header CSS */
+.header{
+    background-color: var(--white-color);
+    height: var(--header-height);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.header-shop-name{
+    line-height: var(--header-height);
+    font-size: 24px;
+    margin-left: 50px;
+    text-align: center;
+    color:  var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+}
+
+.header__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: var(--border);
+    width: 100%;
+    border-right: var(--border);
+}
+
+.header__search-icon{
+    margin-right: 8px;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.header__search-bar{
+    border: none;
+    font-size: 1.6rem; 
+}
+
+.header__search-bar:focus{
+    outline: 0;
+}
+
+.header__option-list{
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    border-right: var(--border);
+    margin: 0;
+    padding: 0;
+    line-height: 45px;
+    width: 100%;
+}
+
+.header__option-item-link{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header__option-item{
+    font-size: 1.6rem;
+}
+
+.header__info{
+}
+
+.header__info-list{
+    display: flex;
+    list-style: none;
+    border-bottom: var(--border);
+    height: 50px;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.header__info-item{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.header__info-icon{
+    font-size: 1.6rem;
+    margin-left: 4px;
+    margin-right: 4px;
+    color: var(--black-color);
+}
+
+.header__info-item-link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+.header__contact{
+    display: flex;
+    justify-content: space-around;
+    line-height: 45px;
+}
+
+.header__contact-location{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.header__contact-phonenumber{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.main{
+    height: 600px;
+    width: 100%;
+}
+
+/* Footer CSS */
+
+.footer{
+    border-top: var(--border);
+}
+
+.footer__head{
+    border-bottom: var(--border);
+}
+
+.footer__object{
+    border-right: var(--border);
+
+}
+
+.footer__object:last-child{
+    border-right: none;
+}
+
+.footer__heading{
+    margin: 10px 20px 5px 80px;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.footer__endtext{
+    margin: 10px 20px 10px 80px;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.footer__contact-title{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-bottom: 4px;
+}
+
+.footer__contact-type{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.footer__contact-email{
+    width: 80%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 1.6rem;
+    border: var(--border);
+    margin-right: 8px;
+}
+
+.footer__contact-email:focus{
+    border: var(--border);
+    outline: 0;
+}
+
+.footer__contact-submit{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-size: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-list{
+    color: var(--primary-color);
+    margin-left: 40px;
+}
+
+.footer-item{
+    margin: 10px;
+}
+
+.footer-item__link{
+    font-size: 1.6rem; 
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.footer__bottom{
+    background-color: #f8f6e7;
+    padding: 10px 0;
+}
+
+.footer__bottom-text{
+    text-align: center;
+    font-size: 1.6rem;
+}
