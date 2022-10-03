@@ -58,8 +58,33 @@ html {
 }
 
 
-.grid__column-10{
-    padding-left: 6px;
-    padding-right: 6px;
-    width: 83.334%;
+.grid__column-7{
+    width: 70%;
+}
+
+/* News */
+
+.main__news{
+    width: 100%;
+}
+
+.main__news-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__news-title{
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+
+.main__news-seeall{
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: auto 0;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
