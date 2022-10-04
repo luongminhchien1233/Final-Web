@@ -88,3 +88,27 @@ html {
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+/* Button CSS */
+
+.button{
+    min-height: 44px;
+    min-width: 290px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border: var(--border);
+    cursor: pointer;
+}
+
+.button--primary{
+    cursor: pointer;
+    min-height: 44px;
+    min-width: 290px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: var(--border);
+}

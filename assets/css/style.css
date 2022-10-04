@@ -62,9 +62,6 @@
     font-size: 1.6rem;
 }
 
-.header__info{
-}
-
 .header__info-list{
     display: flex;
     list-style: none;
@@ -110,8 +107,7 @@
     color: var(--primary-color);
 }
 
-.main{
-    height: 650px;
+.main{  
     width: 100%;
 }
 
@@ -204,8 +200,9 @@
 
 
 .main__catalog{
-    width: 99%;
+    width: 100%;
     height: 650px;
+    border-bottom: var(--border);
 }
 
 .main_catalog-navbar{
@@ -244,7 +241,7 @@
     color: var(--primary-color);
     text-decoration: none;
     font-size: 1.6rem;
-    margin-left: 80px;
+    margin: 0 auto;
 }
 
 
@@ -330,5 +327,116 @@
   }
 
 
+/* Discover CSS */
 
-        
+.main__blog-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main__blog{
+    width: 99%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main__blog-discover{
+    width: 400px;
+    min-height: 620px;
+    border: var(--border);
+    border-radius: 10px;
+}
+
+.main__blog-discover-main{
+    width: 360px;
+    min-height: 580px;
+    border: var(--border);
+    margin: 15px auto 15px;
+}
+
+.discover__header{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin: 24px 0 8px 40px;
+    line-height: 4.2rem;
+}
+
+.discover__title{
+    font-size: 1.6rem;
+    margin: 0 0 0 40px;
+    color: var(--primary-color);
+}
+
+.discover__img{
+    width: 220px;
+    height: 280px;
+    margin: 16px 0 0 40px;
+}
+
+.discover__img-title{
+    font-size: 1.8rem;
+    margin: 8px 0 0 40px;
+    color: var(--primary-color);
+}
+
+.discover__paragraph{
+    font-size: 1.4rem;
+    margin: 8px 0 0 40px;
+    color: var(--primary-color);
+}
+
+.discover__button{
+    margin: 20px 0 32px 40px;
+}
+
+.main__blog-content{
+}
+
+.blog__content-title{
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.blog__content-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: var(--border);
+    border-radius: 4px;
+    min-height: 580px;
+    width: 360px;
+}
+
+.blog__content-item{
+    max-height: 54px;
+    display: block;
+    border-bottom: var(--border);
+    min-height: 40px;
+}  
+
+.blog__content-item:first-child{
+    margin-top: 10px;
+}
+
+.blog__content-item:last-child{
+    border: none;
+}
+
+.blog__content-link{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    padding: 20px 40px;
+    line-height: 54px;
+}
+
+.blog__content-button{
+    margin-top: 16px;
+    margin-left: 40px;
+}
