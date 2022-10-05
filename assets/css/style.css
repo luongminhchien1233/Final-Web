@@ -538,6 +538,11 @@
     min-width: 180px;
     height: 32px;
     border: var(--border);
+    font-size: 1.6rem;
+}
+
+.main__input-box:focus{
+    outline: none;
 }
 
 .main__discount-button{
